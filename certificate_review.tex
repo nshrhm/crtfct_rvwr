@@ -1,0 +1,65 @@
+\documentclass[landscape]{article}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{mathpazo}
+\usepackage{setspace}
+\usepackage{graphicx}
+
+\begin{document}
+\pagestyle{empty}
+
+% Border
+\begin{tikzpicture}[overlay,remember picture]
+    \draw [line width=3pt]
+    ($(current page.north west)+(2cm,-2cm)$)
+    rectangle
+    ($(current page.south east)+(-2cm,2cm)$);
+    \draw [line width=1pt]
+    ($(current page.north west)+(2.3cm,-2.3cm)$)
+    rectangle
+    ($(current page.south east)+(-2.3cm,2.3cm)$);
+\end{tikzpicture}
+
+\vspace{2cm}
+\begin{center}
+    \vspace*{0.2cm}
+    {\Huge \textsc{Certificate of Reviewer}}
+
+    \vspace{0.8cm}
+    {\LARGE This is to certify that}
+
+    \vspace{0.4cm}
+    {\Huge \textbf{[Reviewer Name]}}
+
+    \vspace{0.4cm}
+    {\large has served as a reviewer for \textbf{[Number] papers}}
+    \vspace{0.5cm}
+    {\large and contributed to the peer review process.}
+
+    \vspace{0.5cm}
+    {\large \textbf{The 12th IIAE International Conference on Intelligent Systems and Image Processing 2025}}
+    {\large \textbf{(ICISIP 2025)}}
+
+    \vspace{0.5cm}
+    {\large held in Nagasaki University, Nagasaki, Japan\\
+        September 8-12, 2025}
+
+    \vspace{0.5cm}
+    {\large Your valuable contribution to the peer review process has helped maintain\\
+        the high academic standards of our session.}
+
+    \vspace{1cm}
+    \begin{minipage}{0.8\textwidth}
+        \raisebox{-1cm}[0pt][0pt]{\hspace{3cm}\includegraphics[height=3cm]{logo.png}}
+        \hspace{-3cm}\hfill\begin{tabular}{r}
+            \rule{5cm}{0.4pt}         \\
+            Naruki Shirahama          \\
+            Special Session Organizer \\
+            ICISIP 2025               \\[0.5cm]
+            {\itshape September 8-12, 2025}
+        \end{tabular}
+        \hspace{1cm}
+    \end{minipage}
+\end{center}
+\end{document}
