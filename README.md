@@ -1,7 +1,7 @@
 # 査読者証明書生成ツール
 
 このツールは、学術会議等の査読者に対する証明書をLaTeXを使用して自動生成するPythonスクリプトです。
-- サンプルは ICISIP 2025 (https://www2.ia-engineers.org/icisip2025/) を想定して作成しました。
+- サンプルは[ICISIP 2025](https://www2.ia-engineers.org/icisip2025/) を想定して作成しました。
 
 ## システム要件
 
