@@ -28,8 +28,8 @@ def generate_certificates(reviewer_csv, template_tex, delete_tex=False):
             for row in reader:
                 reviewer_name = row['Name']
                 reviewer_number = row['Number']
-                output_tex = f"ISME2024_certificate_of_reviewer_{reviewer_name.replace(' ', '_')}.tex"
-                output_pdf = f"ISME2024_certificate_of_reviewer_{reviewer_name.replace(' ', '_')}.pdf"
+                output_tex = f"Certificate_of_reviewer_{reviewer_name.replace(' ', '_')}.tex"
+                output_pdf = f"Certificate_of_reviewer_{reviewer_name.replace(' ', '_')}.pdf"
                 
                 # テンプレートを置換
                 tex_content = template.replace('[Reviewer Name]', reviewer_name)
