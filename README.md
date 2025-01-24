@@ -48,8 +48,8 @@ Jane Smith,1
 
 プログラムは各査読者に対して以下のファイルを生成します：
 
-- `ISME2024_certificate_of_reviewer_[名前].pdf`: 生成された証明書PDF
-- `ISME2024_certificate_of_reviewer_[名前].tex`: LaTeXソースファイル（-dオプションを使用しない場合）
+- `Certificate_of_reviewer_[名前].pdf`: 生成された証明書PDF
+- `Certificate_of_reviewer_[名前].tex`: LaTeXソースファイル（-dオプションを使用しない場合）
 
 ## エラー処理
 
